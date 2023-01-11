@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Music Player" title="Music Player" src="https://github.com/vagnernerves/be-the-hero/blob/master/frontend/src/assets/bethehero_logo.png" />
+  <img alt="Music Player" title="Music Player" src="./src/assets/musicplayer.svg" />
 </h1>
 
 🚧 Project under construction 🚧
