@@ -2,7 +2,11 @@
   <img alt="Music Player" title="Music Player" src="./src/assets/musicplayer.svg" />
 </h1>
 
-🚧 Project under construction 🚧
+I developed in this project the layout of the music player with tailwindcss.
+
+## 🎥 Implementation Video
+
+In the GitHub edit, drag the video that it already puts on github itself.
 
 ## 🎨 Layout
 
@@ -10,13 +14,9 @@ Layout developed by [Daniel Duarte](https://www.linkedin.com/in/daniel2d/)
 
 [![Layout in Figma](https://github.com/VagnerNerves/default-readme/blob/main/assets/layout-in-figma.svg)](<https://www.figma.com/file/CMArV7fIqUJtMsKaX5Gmq3/%23boraCodar---Desafio-1-(Copy)?node-id=0%3A1&t=PX4QXySnEOTaRagF-1>)
 
-<!-- ## 🎥 Implementation Video
-
-In the GitHub edit, drag the video that it already puts on github itself.
-
 ## 👏 Learning and more implementations
 
-Describe what you learned and implemented in the project. -->
+In this project I implemented with Tailwindcss where I learned a lot.
 
 ## 💡 Technologies used
 
@@ -25,9 +25,9 @@ Describe what you learned and implemented in the project. -->
 - [x] [Tailwindcss](https://tailwindcss.com/)
 - [x] [Phosphoricons](https://phosphoricons.com/)
 
-<!-- ## 🚀 Running the project
+## 🚀 Running the project
 
-### Back-end
+<!-- ### Back-end
 
 Clone the project
 
@@ -51,20 +51,20 @@ Start the server
 
 ```bash
   npm run start
-```
+``` -->
 
 ### Front-end Web
 
 Clone the project
 
 ```bash
-  git clone https://link-para-o-projeto
+  git clone https://github.com/VagnerNerves/musicplayer-boracodar.git
 ```
 
 Enter the project directory
 
 ```bash
-  cd my-project
+  cd musicplayer-boracodar
 ```
 
 Install with dependencies
@@ -79,9 +79,9 @@ Start the server
   npm run start
 ```
 
-## 📝 Routes
+<!-- ## 📝 Routes
 
-[![Run in Postman](https://github.com/VagnerNerves/default-readme/blob/main/assets/run-in-postman.svg)](https://app.getpostman.com/run-collection/link) -->
+[![Run in Postman](https://github.com/VagnerNerves/default-readme/blob/main/assets/run-in-postman.svg)](https://app.getpostman.com/run-collection/link)  -->
 
 ## 🌎 License
 
