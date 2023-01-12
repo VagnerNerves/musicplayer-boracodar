@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { Play, Pause, Rewind, FastForward } from 'phosphor-react'
 
 import musicprogress from '../assets/musicprogress.svg'
@@ -32,7 +33,21 @@ interface MusicPlayerProps {
   typePlayer: keyof typeof TYPE_PLAYER
 }
 
+interface Music {
+  startMusic: Boolean
+}
+
 export function MusicPlayer({ typePlayer }: MusicPlayerProps) {
+  const [music, setMusic] = useState<Music | null>(null)
+
+  function handleStartMusic() {
+    const newMusic: Music = {
+      startMusic: !music?.startMusic
+    }
+
+    setMusic(newMusic)
+  }
+
   return (
     <div className={`${TYPE_PLAYER[typePlayer].container}`}>
       <div className={`${TYPE_PLAYER[typePlayer].header}`}>
@@ -55,13 +70,30 @@ export function MusicPlayer({ typePlayer }: MusicPlayerProps) {
       <div className="flex justify-center items-center mb-[1.8125rem]">
         <div className={`${TYPE_PLAYER[typePlayer].buttonContainer}`}>
           <button>
-            <Rewind size={28} color="#E1E1E6" weight="fill" />
+            <Rewind
+              className="hover:fill-gray-200"
+              size={28}
+              color="#C4C4CC"
+              weight="fill"
+            />
+          </button>
+          <button
+            onClick={handleStartMusic}
+            className="transition duration-300 hover:scale-125"
+          >
+            {music?.startMusic ? (
+              <Pause size={28} color="#E1E1E6" weight="fill" />
+            ) : (
+              <Play size={28} color="#E1E1E6" weight="fill" />
+            )}
           </button>
           <button>
-            <Play size={28} color="#E1E1E6" weight="fill" />
-          </button>
-          <button>
-            <FastForward size={28} color="#E1E1E6" weight="fill" />
+            <FastForward
+              className="hover:fill-gray-200"
+              size={28}
+              color="#C4C4CC"
+              weight="fill"
+            />
           </button>
         </div>
       </div>
