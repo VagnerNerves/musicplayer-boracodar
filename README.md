@@ -8,7 +8,11 @@ Link in [Netlify](https://musicplayer-boracodar-vagnernerves.netlify.app/)
 
 ## 🎥 Implementation Video
 
-In the GitHub edit, drag the video that it already puts on github itself.
+
+
+https://user-images.githubusercontent.com/40831841/211949894-ab7d0735-acbf-422e-a4e1-f98bdc1691e7.mp4
+
+
 
 ## 🎨 Layout
 
