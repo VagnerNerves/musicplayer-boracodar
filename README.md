@@ -4,6 +4,8 @@
 
 I developed in this project the layout of the music player with tailwindcss.
 
+Link in [Netlify](https://musicplayer-boracodar-vagnernerves.netlify.app/)
+
 ## 🎥 Implementation Video
 
 In the GitHub edit, drag the video that it already puts on github itself.
