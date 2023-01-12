@@ -22,6 +22,7 @@ In this project I implemented with Tailwindcss where I learned a lot.
 
 - [x] [Vite](https://vitejs.dev/)
 - [x] React
+- [x] TypeScript
 - [x] [Tailwindcss](https://tailwindcss.com/)
 - [x] [Phosphoricons](https://phosphoricons.com/)
 
